@@ -2,8 +2,8 @@
 <manifest>
 
 <!-- Trees -->
-<project path="device/realme/r5x" name="soyabkhanmalek/device_realme_r5x.git" remote="github" revision="lineage-19.1" />
-<project path="vendor/realme" name="soyabkhanmalek/vendor_realme_r5x.git" remote="github" revision="master" />
-<project path="kernel/realme/r5x" name="soyabkhanmalek/kernel_r5x.git" remote="github" revision="lineage-19.1" />
+<project path="device/realme/r5x" name="soyabkhanmalek/device_realme_r5x" remote="github" revision="lineage-19.1" />
+<project path="vendor/realme" name="soyabkhanmalek/vendor_realme_r5x" remote="github" revision="12" />
+<project path="kernel/realme/r5x" name="soyabkhanmalek/kernel_r5x" remote="github" revision="12.1" />
 
 </manifest>
