@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Trees -->
+ <project path="device/samsung/j1xlte" name="Exynos3475/android_device_samsung_j1xlte" remote="github" revision="cm-14.1" />
+ <project path="vendor/samsung" name="Exynos3475/android_vendor_samsung" remote="github" revision="cm-14.1" />
+ <project path="kernel/samsung/exynos3475" name="Exynos3475/android_kernel_samsung_exynos3475" remote="github" revision="cm-14.1-rebase" />
+
+</manifest>
