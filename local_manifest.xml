@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+     <remote name="mojito"
+                fetch="https://github.com" />
 
 <!-- Trees -->
- <project path="device/samsung/j1xlte" name="Exynos3475/android_device_samsung_j1xlte" remote="github" revision="cm-14.1" />
- <project path="vendor/samsung" name="Exynos3475/android_vendor_samsung" remote="github" revision="cm-14.1" />
- <project path="kernel/samsung/exynos3475" name="Exynos3475/android_kernel_samsung_exynos3475" remote="github" revision="cm-14.1-rebase" />
+        <project path="device/xiaomi/mojito" name="soyabkhanmalek/device_xiaomi_mojito" remote="mojito" revision="12.1" />
+        <project path="vendor/xiaomi/mojito" name="soyabkhanmalek/vendor_xiaomi_mojito" remote="mojito" revision="12.1" />
+        <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="13" />
 
 </manifest>
