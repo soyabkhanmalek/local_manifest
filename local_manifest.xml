@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <remote name="mojito"
-                fetch="https://github.com" />
+     
 
 <!-- Trees -->
-        <project path="device/xiaomi/mojito" name="soyabkhanmalek/device_xiaomi_mojito" remote="mojito" revision="12.1" />
-        <project path="vendor/xiaomi/mojito" name="soyabkhanmalek/vendor_xiaomi_mojito" remote="mojito" revision="12.1" />
-        <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="13" />
+        <project path="device/realme/r5x" name="KharaMe-devices/device_realme_r5x" remote="github" revision="twelve" />
+        <project path="vendor/realme/r5x" name="soyabkhanmalek/vendor_realme_r5x-1" remote="github" revision="twelve" />
+        <project path="kernel/realme/r5x" name="KharaMe-devices/kernel_realme_r5x" remote="github" revision="twelve" />
 
 </manifest>
