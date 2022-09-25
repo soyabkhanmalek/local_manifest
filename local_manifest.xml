@@ -2,8 +2,15 @@
 <manifest>
 
 <!-- Trees -->
-        <project path="device/xiaomi/mojito" name="soyabkhanmalek/device_xiaomi_mojito" remote="github" revision="12.1" />
-        <project path="vendor/xiaomi/mojito" name="soyabkhanmalek/vendor_xiaomi_mojito" remote="github" revision="12.1" />
-        <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="github" revision="13" />
+            <!-- Device -->
+    <project name="Exynos3475/android_device_samsung_j1xlte" remote="github" revision="lineage-17.1" path="device/samsung/j1xlte"/>
+    <project name="Exynos3475/android_device_samsung_universal3475-common" remote="github" revision="lineage-17.1" path="device/samsung/universal3475-common"/>
+    
+    <!--Kernel Source-->
+    <project name="Exynos3475/android_kernel_samsung_exynos3475" remote="github" revision="lineage-17.1" path="kernel/samsung/exynos3475"/>
+
+    <!--Proprietary Blobs-->
+    <project name="Exynos3475/android_vendor_samsung" remote="github" revision="lineage-17.1" path="vendor/samsung"/>
+
 
 </manifest>
