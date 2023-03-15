@@ -5,6 +5,6 @@
 <!-- Trees -->
         <project path="device/realme/r5x" name="soyabkhanmalek/device_realme_r5x.git" remote="github" revision="13" />
         <project path="vendor/realme/r5x" name="soyabkhanmalek/vendor_realme_r5x.git" remote="github" revision="thirteen" />
-        <project path="kernel/realme/r5x" name="soyabkhanmalek/kernel_realme_r5x.git" remote="github" revision="OSS" />
+        <project path="kernel/realme/r5x" name="soyabkhanmalek/kernel_realme_trinket.git" remote="github" revision="inline" />
 
 </manifest>
