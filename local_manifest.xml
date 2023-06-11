@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="mojito"
+                fetch="https://github.com" />
+        <remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
+        
 <!-- Trees -->
-        <project path="device/xiaomi/yunluo" name="soyabkhanmalek/android_device_xiaomi_yunluo" remote="github" revision="lineage-20" />
-        <project path="vendor/xiaomi/yunluo" name="soyabkhanmalek/android_vendor_xiaomi_yunluo" remote="github" revision="lineage-20" />
-        <project path="kernel/xiaomi/yunluo" name="soyabkhanmalek/kernel_xiaomi_yunluo" remote="github" revision="13" />
+        <project path="device/xiaomi/yunluo" name="soyabkhanmalek/android_device_xiaomi_yunluo" remote="mojito" revision="lineage-20" />
+        <project path="vendor/xiaomi/yunluo" name="soyabkhanmalek/android_vendor_xiaomi_yunluo" remote="mojito" revision="lineage-20" />
+        <project path="kernel/xiaomi/yunluo" name="soyabkhanmalek/kernel_xiaomi_yunluo" remote="mojito" revision="13" />
+
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
 </manifest>
