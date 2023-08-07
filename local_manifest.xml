@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Remotes -->
+    <remote name="6789-dev" fetch="https://github.com/xiaomi-mt6789-devs"
+        revision="lineage-20" />
+    <remote name="lineageos" fetch="https://github.com/LineageOS"
+    	revision="lineage-20" />
+    <remote name="nashc-dev" fetch="https://github.com/nashc-dev"
+	    revision="lineage-20" />
 
-        <remote name="mojito"
-                fetch="https://github.com" />
-        <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
-        
-<!-- Trees -->
-        <project path="device/xiaomi/yunluo" name="soyabkhanmalek/android_device_xiaomi_yunluo" remote="mojito" revision="lineage-20" />
-        <project path="vendor/xiaomi/yunluo" name="soyabkhanmalek/android_vendor_xiaomi_yunluo" remote="mojito" revision="lineage-20" />
-        <project path="kernel/xiaomi/yunluo" name="soyabkhanmalek/kernel_xiaomi-yunluo" remote="mojito" revision="13" />
+    <!-- Device / Kernel prebuilts -->
+    <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo"
+        remote="6789-dev" />
+    <project path="device/xiaomi/yunluo-kernel"
+        name="android_device_xiaomi_yunluo-kernel"
+        remote="6789-dev" />
 
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+    <remove-project name="android_device_mediatek_sepolicy_vndr" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr"
+        remote="6789-dev" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi"
+        remote="lineageos" />
+
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="6789-dev" />
+    <project path="hardware/mediatek/wlan" name="android_hardware_mediatek_wlan" remote="nashc-dev" />
+
+    <!-- Proprietary vendor -->
+    <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo"
+        remote="6789-dev" />
 
 </manifest>
