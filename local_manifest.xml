@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remotes -->
+	<remote name="farmsun" fetch="https://github.com/Farmsun"
+		revision="lineage-20" />
     <remote name="6789-dev" fetch="https://github.com/xiaomi-mt6789-devs"
         revision="lineage-20" />
     <remote name="lineageos" fetch="https://github.com/LineageOS"
@@ -10,12 +12,11 @@
 
     <!-- Device / Kernel prebuilts -->
     <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo"
-        remote="6789-dev" />
+        remote="farmsun" />
     <project path="device/xiaomi/yunluo-kernel"
         name="android_device_xiaomi_yunluo-kernel"
         remote="6789-dev" />
-
-    <remove-project name="android_device_mediatek_sepolicy_vndr" />
+	
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr"
         remote="6789-dev" />
 
