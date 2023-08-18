@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remotes -->
-	<remote name="farmsun" fetch="https://github.com/Farmsun"
+	<remote name="farmsun" fetch="https://github.com/soyabkhanmalek"
 		revision="lineage-20" />
     <remote name="6789-dev" fetch="https://github.com/xiaomi-mt6789-devs"
         revision="lineage-20" />
