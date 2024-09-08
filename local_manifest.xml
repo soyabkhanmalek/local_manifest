@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-<!-- Trees -->
-        <project path="device/xiaomi/mojito" name="soyabkhanmalek/device_xiaomi_mojito" remote="github" revision="12.1" />
-        <project path="vendor/xiaomi/mojito" name="soyabkhanmalek/vendor_xiaomi_mojito" remote="github" revision="12.1" />
-        <project path="kernel/xiaomi/mojito" name="soyabkhanmalek/android_kernel_xiaomi_mojito" remote="github" revision="13" />
-
-</manifest>
