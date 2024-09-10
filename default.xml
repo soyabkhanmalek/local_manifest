@@ -3,8 +3,8 @@
         <remote name="soyab" fetch="https://github.com/soyabkhanmalek" />
        	
           
-        <project remote="soyab" name="device_xiaomi_sakura" path="device/xiaomi/sakura" revision="lineage"/>
+        <project remote="soyab" name="device_xiaomi_sakura" path="device/xiaomi/sakura" revision="udc"/>
         <project remote="soyab" name="vendor_xiaomi_sakura" path="vendor/xiaomi/sakura" revision="14" />
         <project remote="soyab" name="vendor_xiaomi_msm8953-common" path="vendor/xiaomi/msm8953-common" revision="14" />
-        <project remote="soyab" name="kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953"  revision="14" />
+        <project remote="soyab" name="android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953"  revision="14" />
 </manifest>
