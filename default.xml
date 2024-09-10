@@ -7,4 +7,6 @@
         <project remote="soyab" name="vendor_xiaomi_sakura" path="vendor/xiaomi/sakura" revision="14" />
         <project remote="soyab" name="vendor_xiaomi_msm8953-common" path="vendor/xiaomi/msm8953-common" revision="14" />
         <project remote="soyab" name="android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953"  revision="lineage-21" />
+        <project remote="soyab" name="android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
+        <project remote="soyab" name="vendor_lineage_config" path="vendor/lineage/config" revision="main" />
 </manifest>
