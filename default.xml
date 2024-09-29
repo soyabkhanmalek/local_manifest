@@ -7,4 +7,12 @@
         <project remote="soyab" name="proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="uvite" />
         <project remote="github" name="Neternels/android_kernel_xiaomi_sunny" path="kernel/msm4.14"  revision="staging" />
         <project remote="github" name="AOSPA/android_hardware_xiaomi" path="hardware/xiaomi" revision="uvite" />
+        <project remote="github" name="AOSPA/android_hardware_qcom_audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="uvite-855" />
+        <project remote="github" name="AOSPA/android_hardware_qcom_display" path="hardware/qcom/display" revision="uvite-855" />
+        <project remote="github" name="AOSPA/android_hardware_qcom_media" path="hardware/qcom/media" revision="uvite-855" />
+        <project remote="github" name="AOSPA/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="uvite-855" />
+        <project remote="github" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" revision="uvite-12" clone-depth="1" />
+        <project remote="github" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" path="prebuilts/gcc/linux-x86/arm/arm-eabi" revision="uvite-12" clone-depth="1" />
+        <project remote="github" name="AOSPA/android_packages_apps_KProfiles" path="packages/apps/KProfiles" revision="uvite" />
+</manifest>
 </manifest>
