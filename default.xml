@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>         
         <remote name="soyab" fetch="https://github.com/soyabkhanmalek" />
-       	
+       	<remote name="github" fetch="https://github.com" />
           
-        <project remote="soyab" name="device_xiaomi_sakura" path="device/xiaomi/sakura" revision="UDC"/>
-        <project remote="soyab" name="vendor_xiaomi_sakura" path="vendor/xiaomi/sakura" revision="14" />
-        <project remote="soyab" name="vendor_xiaomi_msm8953-common" path="vendor/xiaomi/msm8953-common" revision="14" />
-        <project remote="soyab" name="android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953"  revision="lineage-21" />
-        <project remote="soyab" name="android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
-        <project remote="soyab" name="vendor_lineage_config" path="vendor/lineage/config" revision="main" />
+        <project remote="soyab" name="android_device_xiaomi_sunny" path="device/xiaomi/sunny" revision="uvite"/>
+        <project remote="soyab" name="proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="uvite" />
+        <project remote="github" name="Neternels/android_kernel_xiaomi_sunny" path="kernel/msm4.14"  revision="staging" />
+        <project remote="github" name="AOSPA/android_hardware_xiaomi" path="hardware/xiaomi" revision="uvite" />
 </manifest>
