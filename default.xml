@@ -16,4 +16,3 @@
         <project remote="github" name="AOSPA/android_packages_apps_KProfiles" path="packages/apps/KProfiles" revision="uvite" />
         <project remote="soyab" name="vendor_bcr" path="vendor/bcr" revision="main" />
 </manifest>
-</manifest>
