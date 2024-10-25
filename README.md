@@ -7,9 +7,9 @@ This is a manifest for Xiaomi Redmi Note 10  (sunnny/mojito) Alphadroid
 
 
 
-
+# Status #
 Android 14 working
 
 
-
+# Credits #
 @cyberknight777 for resources
